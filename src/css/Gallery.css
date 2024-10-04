@@ -1,0 +1,80 @@
+/* Gallery.css */
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdf2e9; /* Soft pastel peach color */
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .gallery-button-container {
+    display: flex;
+  }
+  
+  .gallery-button {
+    background-color: #ffaf87; /* Warm soft orange */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gallery-button:disabled {
+    background-color: #ffe0cc; /* Lighter version for disabled button */
+    cursor: not-allowed;
+  }
+  
+  .gallery-button:hover {
+    background-color: #ff8c5f; /* Slightly darker on hover */
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery-details {
+    font-size: 14px;
+    color: #6b544d; /* Soft brown for text */
+    padding: 10px;
+  }
+  
+  .gallery-index {
+    margin: 20px 0;
+    font-weight: bold;
+    color: #d77a61; /* Warm soft red */
+  }
+  
+  .gallery-description {
+    background-color: #fff4ed; /* Light cream background */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    color: #6b544d; /* Soft brown for text */
+  }
+  
+  .gallery-title {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #b05e48; /* Warm deep red */
+  }
+  
+  .gallery-artist {
+    font-size: 18px;
+    color: #6b544d; /* Soft brown */
+  }
+  
