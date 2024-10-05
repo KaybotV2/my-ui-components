@@ -1,11 +1,10 @@
-/* Gallery.css */
-
+/* General container styles */
 .gallery-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fdf2e9; /* Soft pastel peach color */
+    background-color: #e0f7fa; /* Light cool aqua */
     border-radius: 10px;
     padding: 20px;
     width: 400px;
@@ -13,13 +12,15 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-
+  
+  /* Button container */
   .gallery-button-container {
     display: flex;
   }
   
+  /* Button styles */
   .gallery-button {
-    background-color: #ffaf87; /* Warm soft orange */
+    background-color: #00796b; /* Cool teal */
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -29,52 +30,60 @@
     transition: background-color 0.3s ease;
   }
   
+  /* Disabled button */
   .gallery-button:disabled {
-    background-color: #ffe0cc; /* Lighter version for disabled button */
+    background-color: #b2dfdb; /* Light muted teal */
     cursor: not-allowed;
   }
   
+  /* Button hover */
   .gallery-button:hover {
-    background-color: #ff8c5f; /* Slightly darker on hover */
+    background-color: #004d40; /* Darker teal on hover */
   }
   
+  /* Image styles */
   .gallery-image {
     width: 100%;
     height: auto;
     margin-top: 20px;
     border-radius: 10px;
     object-fit: cover;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   }
   
+  /* Details text */
   .gallery-details {
     font-size: 14px;
-    color: #6b544d; /* Soft brown for text */
+    color: #37474f; /* Cool dark gray */
     padding: 10px;
+    text-align: center;
   }
   
+  /* Index display */
   .gallery-index {
     margin: 20px 0;
     font-weight: bold;
-    color: #d77a61; /* Warm soft red */
+    color: #00796b; /* Cool teal */
   }
   
+  /* Description box */
   .gallery-description {
-    background-color: #fff4ed; /* Light cream background */
+    background-color: #e0f2f1; /* Soft cool teal */
     padding: 15px;
     border-radius: 8px;
     margin-top: 15px;
-    color: #6b544d; /* Soft brown for text */
+    color: #37474f; /* Cool dark gray */
   }
   
+  /* Title and artist styles */
   .gallery-title {
     font-size: 24px;
     margin: 10px 0;
-    color: #b05e48; /* Warm deep red */
+    color: #00695c; /* Deep cool teal */
   }
   
   .gallery-artist {
     font-size: 18px;
-    color: #6b544d; /* Soft brown */
+    color: #37474f; /* Cool dark gray */
   }
   
