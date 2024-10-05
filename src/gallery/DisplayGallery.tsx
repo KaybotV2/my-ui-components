@@ -1,4 +1,4 @@
-import Gallery from '../gallery/Gallery ';
+import Gallery from './Gallery ';
 import Sculpture from '../types/Sculputure';
 import { sculptureList } from '../data/sculptureList'
 

@@ -1,5 +1,5 @@
 import './App.css';
-import DisplayGallery from './parentcomponents/DisplayGallery';
+import DisplayGallery from './gallery/DisplayGallery';
 
 function App() {
   return (
