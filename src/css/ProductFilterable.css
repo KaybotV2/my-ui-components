@@ -1,0 +1,80 @@
+/* General styles for the container */
+.filterable-product-table {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    width: 60%;
+    border: 1px solid #b0c4de; /* Cool light blue-gray border */
+    padding: 20px;
+    background-color: #e6f2f5; /* Cool light blue background */
+    border-radius: 8px;
+  }
+  
+  /* SearchBar styles */
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    width: 70%;
+    border: 1px solid #9ebfcf; /* Cool gray-blue border */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f0f8ff; /* Very light cool tone background */
+  }
+  
+  .search-bar label {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #2f4f4f; /* Dark slate gray */
+  }
+  
+  .search-bar input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Table styles */
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th, .product-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #b0c4de; /* Cool blue-gray for table borders */
+  }
+  
+  .product-table th {
+    background-color: #d3e0e8; /* Cool light blue-gray */
+    color: #2f4f4f; /* Darker cool gray */
+  }
+  
+  .product-table tr:nth-child(even) {
+    background-color: #f0f8ff; /* Very light cool tone background for even rows */
+  }
+  
+  /* ProductCategoryRow styles */
+  .product-category-row {
+    font-weight: bold;
+    background-color: #c4dfe6; /* Slightly darker cool blue */
+    padding: 10px 0;
+    color: #2f4f4f;
+  }
+  
+  /* No results row */
+  .no-results {
+    text-align: center;
+    font-style: italic;
+    color: #5f9ea0; /* Cool cadet blue */
+  }
+  
+  /* ProductRow styles */
+  .product-row {
+    color: #2f4f4f; /* Cool dark slate gray */
+  }
+  
+  .out-of-stock {
+    color: #ed1010; /* Steel blue for a cool contrast */
+  }
+  

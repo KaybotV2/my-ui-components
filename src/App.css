@@ -1,5 +1,49 @@
+/* General App styles */
 .App {
-  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 1000px;
+  background-color: #f4f4f9; /* Light clean background */
 }
 
+/* Tab container styles */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
+/* Individual tab styles */
+.tab {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #e0e0e0; /* Light gray for default tab */
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+  outline: none;
+}
+
+.tab:hover {
+  background-color: #d1d1d1; /* Slight hover effect */
+}
+
+/* Active tab styles */
+.tab.active {
+  background-color: #007bff; /* Primary blue for active tab */
+  color: #fff; /* White text on active tab */
+}
+
+/* Tab content container */
+.tab-content {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff; /* White background for content */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
